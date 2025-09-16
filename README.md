@@ -154,11 +154,11 @@ ShadowHub es un proyecto personal desarrollado en mi tiempo libre. Si te gusta l
 
 ## Descargo de Responsabilidad
 
-> **ShadowHub es una herramienta de software neutra.** Su funcionalidad es análoga a la de un navegador web, permitiendo el acceso a datos y contenido a través de extensiones de terceros.
-> 
-> **No alojamos, controlamos, desarrollamos ni proporcionamos ninguna de las extensiones ni el contenido al que estas dan acceso.**
+> **Este proyecto se ha creado y se mantiene con fines puramente educativos, como un incentivo para el aprendizaje y la experimentación en la programación de aplicaciones Android.**
 >
-> **El usuario final es el único y total responsable de las extensiones que instala y del uso que hace de la aplicación.** Cualquier problema legal o de derechos de autor relacionado con el contenido es responsabilidad exclusiva del usuario y de los proveedores de las extensiones. Se recomienda a los usuarios cumplir con las leyes de derechos de autor de su localidad.
+> ShadowHub es una herramienta de software neutra, análoga a un navegador web. No aloja, distribuye ni tiene afiliación alguna con el contenido que se pueda visualizar a través de las extensiones. La aplicación simplemente actúa como un motor que interpreta datos y enlaces proporcionados por terceros.
+>
+> **Los únicos y totales responsables del contenido son los sitios web de terceros que lo alojan públicamente en Internet.** Cualquier procedimiento legal o reclamo sobre derechos de autor debe dirigirse directamente a dichos proveedores de contenido. Nuestro proyecto no se hace responsable de la legalidad o la naturaleza del material al que se accede.
 
 ## Autor
 
