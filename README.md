@@ -3,7 +3,7 @@
 <p align="center">
   <img src="./assets/logo.png" height="100px" alt="ShadowHub logo" />
   <br />
-  Una aplicación para Android TV y móvil para ver películas y series, desarrollada con Android Studio en Kotlin.
+  Una aplicación para Android TV y móvil que funciona como un navegador para extensiones de películas y series, desarrollada con Android Studio en Kotlin.
   <br />
   <a href="https://github.com/[TU-USUARIO]/shadowhub/releases/latest">
     <strong>Descargar la App »</strong>
@@ -24,8 +24,8 @@
 - [Empezando](#empezando)
   - [Prerrequisitos](#prerrequisitos)
   - [Instalación](#instalación)
-- [Desarrollo](#desarrollo)
 - [Cómo Contribuir](#cómo-contribuir)
+- [Agradecimientos](#agradecimientos)
 - [Descargo de Responsabilidad](#descargo-de-responsabilidad)
 - [Autor](#autor)
 - [Licencia](#licencia)
@@ -37,27 +37,22 @@
   <img src="./.github/docs/screenshot.png" alt="ShadowHub Preview">
 </p>
 
-**ShadowHub** es una aplicación para Android TV y móvil que permite a los usuarios ver películas y series online en calidad HD.
+**ShadowHub** es una aplicación para Android TV y móvil diseñada para funcionar como un centro de entretenimiento personalizable. Actúa como un navegador que permite a los usuarios instalar **extensiones de terceros** para buscar y visualizar contenido multimedia como películas y series.
 
-Sin necesidad de registro o pago, puedes disfrutar de cientos de miles de películas y programas de televisión en 1080p y 720p, con múltiples subtítulos, de forma fluida y segura.
-
-Nuevos títulos se actualizan diariamente en la aplicación para asegurar que la diversión nunca termine en ShadowHub.
+La aplicación en sí misma no aloja ni provee contenido. Su principal función es ofrecer una interfaz optimizada para que los usuarios puedan gestionar y utilizar las extensiones que elijan instalar.
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/tu-usuario)
 
 ### Características
 
 -   Gratis y sin anuncios.
--   Una enorme colección de películas y series con múltiples subtítulos.
+-   Interfaz optimizada para TV y móvil.
+-   Soporte para extensiones de terceros.
 -   No se necesita cuenta ni registro.
--   UI y UX optimizadas.
--   Múltiples proveedores de contenido.
 -   Reanudación desde la última posición de reproducción.
 -   Actualizaciones dentro de la aplicación.
 
 ### Construido Con
-
-Esta sección lista los frameworks, librerías y tecnologías principales usadas en el proyecto.
 
 | Tecnología | Descripción |
 | --- | --- |
@@ -69,7 +64,6 @@ Esta sección lista los frameworks, librerías y tecnologías principales usadas
 | **ExoPlayer** | Reproductor de medios a nivel de aplicación para Android. |
 | **Leanback** | Librería para construir interfaces de usuario en Android TV. |
 | **Android Arch. Components** | Colección de librerías para un desarrollo robusto y mantenible. |
-
 
 ## Empezando
 
@@ -85,13 +79,7 @@ Asegúrate de tener instalado [Android Studio](https://developer.android.com/stu
     ```bash
     git clone [https://github.com/](https://github.com/)[TU-USUARIO]/shadowhub.git
     ```
-
 2.  Abre el proyecto con Android Studio.
-
-## Desarrollo
-
-1.  Selecciona el dispositivo (físico o emulador) en el que deseas ejecutar la app.
-2.  Haz clic en el botón **Run** (▶️) de Android Studio.
 
 ## Cómo Contribuir
 
@@ -103,13 +91,18 @@ Las contribuciones hacen de la comunidad de código abierto un lugar increíble 
 4.  Haz push a la rama (`git push origin feature/AmazingFeature`).
 5.  Abre un Pull Request.
 
+## Agradecimientos
+
+-   Este proyecto está basado en el código de **Streamflix**.
+-   Un agradecimiento especial a **[Lory-Stan TANASI](https://github.com/stantanasi)** por su trabajo original, que sentó las bases para ShadowHub.
+
 ## Descargo de Responsabilidad
 
-> Cualquier problema legal relacionado con el contenido de esta aplicación debe ser tratado directamente con los hosts y proveedores de los archivos, ya que no estamos afiliados a ellos. En caso de infracción de derechos de autor, por favor, contacta directamente a las partes responsables o a los sitios web de streaming.
+> **ShadowHub** es una aplicación que funciona como un motor de búsqueda o navegador para el contenido proporcionado por extensiones de terceros. **No alojamos, controlamos ni proporcionamos ningún contenido multimedia.**
 >
-> La aplicación está destinada exclusivamente para uso personal y educativo. Es responsabilidad del usuario evitar cualquier acción que pueda violar las leyes de su localidad.
+> **El usuario es el único responsable de las extensiones que instala y del uso que hace de ellas.** Cualquier problema legal o de derechos de autor relacionado con el contenido debe ser tratado directamente con los proveedores de dichas extensiones.
 >
-> **ShadowHub** no aloja ningún contenido en la aplicación y no tiene control sobre qué medios se publican o se retiran. ShadowHub funciona como cualquier otro motor de búsqueda, como Google. No aloja, sube ni gestiona ningún video, película o contenido. Simplemente rastrea, agrega y muestra enlaces en una interfaz conveniente y fácil de usar.
+> Es responsabilidad del usuario evitar cualquier acción que pueda violar las leyes de su localidad. La aplicación está destinada exclusivamente para uso personal y educativo.
 
 ## Autor
 
