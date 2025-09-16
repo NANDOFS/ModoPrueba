@@ -1,35 +1,54 @@
 <h1 align="center">ShadowHub</h1>
 
 <p align="center">
-  <img src="./assets/logo.png" height="100px" alt="ShadowHub logo" />
+  <img src="./assets/logo.png" height="120px" alt="ShadowHub logo" />
+</p>
+
+<p align="center">
+  <strong>Tu centro multimedia personalizable para Android TV y móvil.</strong>
   <br />
-  Una aplicación para Android TV y móvil que funciona como un navegador para extensiones de películas y series, desarrollada con Android Studio en Kotlin.
-  <br />
-  <a href="https://github.com/[TU-USUARIO]/shadowhub/releases/latest">
-    <strong>Descargar la App »</strong>
-  </a>
-  <br />
-  <br />
+  ShadowHub es un navegador de extensiones de código abierto, diseñado para unificar tu experiencia de entretenimiento en una sola interfaz.
+</p>
+
+<p align="center">
+    <a href="https://github.com/[TU-USUARIO]/shadowhub/releases/latest"><img src="https://img.shields.io/github/v/release/[TU-USUARIO]/shadowhub?style=for-the-badge&logo=android&color=3DDC84" alt="Última Versión"></a>
+    <img src="https://img.shields.io/badge/Licencia-Apache_2.0-blue.svg?style=for-the-badge" alt="Licencia">
+    <a href="https://github.com/[TU-USUARIO]/shadowhub/issues"><img src="https://img.shields.io/github/issues/[TU-USUARIO]/shadowhub?style=for-the-badge&logo=github" alt="Issues"></a>
+</p>
+
+<p align="center">
+  <a href="#descargar"><strong>Descargar la App »</strong></a>
+  ·
   <a href="https://github.com/[TU-USUARIO]/shadowhub/issues">Reportar un Bug</a>
   ·
   <a href="https://github.com/[TU-USUARIO]/shadowhub/issues">Solicitar una Característica</a>
 </p>
 
 <details>
-  <summary>Tabla de Contenidos</summary>
+  <summary><strong>Tabla de Contenidos</strong></summary>
 
+- [¿Por qué ShadowHub?](#por-qué-shadowhub)
 - [Acerca del Proyecto](#acerca-del-proyecto)
-  - [Características](#características)
+  - [Características Principales](#características-principales)
   - [Construido Con](#construido-con)
 - [Empezando](#empezando)
   - [Prerrequisitos](#prerrequisitos)
-  - [Instalación](#instalación)
+  - [Instalación y Desarrollo](#instalación-y-desarrollo)
+- [Uso Básico](#uso-básico)
+- [Hoja de Ruta (Roadmap)](#hoja-de-ruta-roadmap)
 - [Cómo Contribuir](#cómo-contribuir)
+- [Apoya el Proyecto](#apoya-el-proyecto)
 - [Agradecimientos](#agradecimientos)
 - [Descargo de Responsabilidad](#descargo-de-responsabilidad)
 - [Autor](#autor)
 - [Licencia](#licencia)
 </details>
+
+## ¿Por qué ShadowHub?
+
+En el ecosistema digital actual, el contenido multimedia está fragmentado en innumerables servicios y plataformas. ShadowHub nace como una solución a este problema, ofreciendo una plataforma unificada y agnóstica que pone el control en manos del usuario.
+
+En lugar de ser otro servicio de contenido, ShadowHub es una **herramienta poderosa**. Funciona como un navegador especializado que, a través de **extensiones de terceros**, te permite agregar, organizar y acceder a tus fuentes de entretenimiento favoritas desde una interfaz limpia, rápida y optimizada para cualquier pantalla.
 
 ## Acerca del Proyecto
 
@@ -37,72 +56,109 @@
   <img src="./.github/docs/screenshot.png" alt="ShadowHub Preview">
 </p>
 
-**ShadowHub** es una aplicación para Android TV y móvil diseñada para funcionar como un centro de entretenimiento personalizable. Actúa como un navegador que permite a los usuarios instalar **extensiones de terceros** para buscar y visualizar contenido multimedia como películas y series.
+**ShadowHub** es una aplicación para Android TV y móvil que actúa como un centro de entretenimiento modular. No aloja ni distribuye contenido por sí misma; su poder reside en su arquitectura extensible. Los usuarios pueden instalar repositorios de extensiones desarrolladas por la comunidad para acceder a una variedad casi ilimitada de películas, series y más.
 
-La aplicación en sí misma no aloja ni provee contenido. Su principal función es ofrecer una interfaz optimizada para que los usuarios puedan gestionar y utilizar las extensiones que elijan instalar.
+### Características Principales
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/tu-usuario)
-
-### Características
-
--   Gratis y sin anuncios.
--   Interfaz optimizada para TV y móvil.
--   Soporte para extensiones de terceros.
--   No se necesita cuenta ni registro.
--   Reanudación desde la última posición de reproducción.
--   Actualizaciones dentro de la aplicación.
+* ✅ **100% Gratis y de Código Abierto**: Sin costos ocultos, sin anuncios. Transparencia total.
+* 🧩 **Arquitectura Basada en Extensiones**: El corazón de ShadowHub. Instala extensiones de diversas fuentes para personalizar tu catálogo de contenido. ¡Tú decides qué agregar!
+* 📱 **Interfaz Unificada y Adaptable**: Diseñada desde cero con Kotlin, ofrece una experiencia de usuario fluida y consistente tanto en dispositivos móviles como en la pantalla grande de tu Android TV (Leanback UI).
+* 🌐 **Múltiples Proveedores**: Agrega contenido de todas tus extensiones y navega por él en un solo lugar, eliminando la necesidad de cambiar entre aplicaciones.
+* 🔄 **Sincronización y Continuidad**: Reanuda la reproducción exactamente donde la dejaste, sin importar el proveedor del contenido.
+* ⬆️ **Actualizaciones Frecuentes**: Sistema de actualización integrado en la app para asegurar que siempre tengas las últimas características y correcciones.
 
 ### Construido Con
 
+Este proyecto es posible gracias al increíble ecosistema de desarrollo de Android. Aquí están algunas de las tecnologías clave que lo impulsan:
+
 | Tecnología | Descripción |
-| --- | --- |
-| **Kotlin** | Lenguaje de programación principal. |
-| **Android Studio** | IDE oficial para el desarrollo de Android. |
-| **MVVM Architecture** | Patrón de diseño para separar la lógica de la UI. |
-| **Coroutines** | Para manejar tareas asíncronas de manera sencilla. |
-| **Retrofit** | Cliente HTTP para realizar peticiones a las APIs. |
-| **ExoPlayer** | Reproductor de medios a nivel de aplicación para Android. |
-| **Leanback** | Librería para construir interfaces de usuario en Android TV. |
-| **Android Arch. Components** | Colección de librerías para un desarrollo robusto y mantenible. |
+| :--- | :--- |
+| **Kotlin** | Lenguaje de programación principal: moderno, seguro y conciso. |
+| **Android Studio** | IDE oficial para el desarrollo nativo de Android. |
+| **MVVM Architecture** | Patrón de diseño para una base de código limpia, escalable y fácil de mantener. |
+| **Coroutines** | Para una gestión de tareas asíncronas eficiente y legible. |
+| **Retrofit** | Cliente HTTP para una comunicación robusta con APIs externas. |
+| **ExoPlayer** | Reproductor de medios avanzado y personalizable para Android. |
+| **Leanback** | Librería oficial para construir interfaces de usuario de alta calidad en Android TV. |
+| **Android Arch. Components**| Componentes como ViewModel, LiveData y Room para un desarrollo moderno. |
 
 ## Empezando
 
-Sigue estos pasos para tener una copia local del proyecto funcionando.
+Si deseas contribuir al código o simplemente ejecutar tu propia versión, sigue estos pasos.
 
 ### Prerrequisitos
 
-Asegúrate de tener instalado [Android Studio](https://developer.android.com/studio).
+* **[Android Studio](https://developer.android.com/studio)** (versión Iguana o superior recomendada).
+* Conocimientos básicos de Kotlin y desarrollo de apps para Android.
 
-### Instalación
+### Instalación y Desarrollo
 
-1.  Clona el repositorio en tu máquina local:
+1.  **Haz un Fork** del repositorio a tu propia cuenta de GitHub.
+2.  **Clona tu Fork** en tu máquina local:
     ```bash
     git clone [https://github.com/](https://github.com/)[TU-USUARIO]/shadowhub.git
     ```
-2.  Abre el proyecto con Android Studio.
+3.  **Abre el proyecto** en Android Studio.
+4.  **Sincroniza Gradle**: Espera a que Android Studio descargue todas las dependencias necesarias.
+5.  **Selecciona el dispositivo**: Elige un emulador o un dispositivo físico conectado.
+6.  **Ejecuta la aplicación**: Haz clic en el botón **Run** (▶️).
+
+## Uso Básico
+
+Una vez instalada la aplicación:
+1.  Ve a la sección de **Configuración** dentro de ShadowHub.
+2.  Selecciona la opción para **Añadir Repositorio de Extensiones**.
+3.  Introduce la URL del repositorio de extensiones que desees usar.
+4.  Una vez añadido, podrás navegar y elegir qué extensiones específicas instalar.
+5.  ¡Listo! El contenido de las extensiones instaladas aparecerá en la pantalla principal.
+
+## Hoja de Ruta (Roadmap)
+
+ShadowHub está en desarrollo activo. Aquí hay algunas de las características planeadas para el futuro:
+
+-   [ ]  Chromecast Support
+-   [ ] Sincronización de cuenta (Trakt.tv, etc.)
+-   [ ] Temas personalizables (Modo claro/oscuro)
+-   [ ] Descarga de contenido para visualización sin conexión
+-   [ ] Búsqueda global mejorada a través de todas las extensiones
+
+¡Si tienes una idea, no dudes en [abrir un issue](https://github.com/[TU-USUARIO]/shadowhub/issues) para discutirla!
 
 ## Cómo Contribuir
 
-Las contribuciones hacen de la comunidad de código abierto un lugar increíble para aprender, inspirar y crear. Cualquier contribución que hagas es **muy apreciada**.
+¡Las contribuciones son el alma de los proyectos de código abierto! Si quieres ayudar a mejorar ShadowHub, eres más que bienvenido.
 
 1.  Haz un Fork del Proyecto.
 2.  Crea tu rama de característica (`git checkout -b feature/AmazingFeature`).
 3.  Haz commit de tus cambios (`git commit -m 'feat: Add some AmazingFeature'`).
 4.  Haz push a la rama (`git push origin feature/AmazingFeature`).
-5.  Abre un Pull Request.
+5.  Abre un Pull Request, describiendo claramente los cambios que has realizado.
+
+## Apoya el Proyecto
+
+ShadowHub es un proyecto personal desarrollado en mi tiempo libre. Si te gusta la aplicación y quieres apoyar su continuo desarrollo, puedes invitarme un café o hacer una donación. ¡Cualquier ayuda es enormemente apreciada!
+
+<p align="center">
+  <a href="https://www.buymeacoffee.com/tu-usuario-coffee">
+    <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee">
+  </a>
+  <a href="https://paypal.me/tu-usuario-paypal">
+    <img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="Donate with PayPal">
+  </a>
+</p>
 
 ## Agradecimientos
 
--   Este proyecto está basado en el código de **Streamflix**.
--   Un agradecimiento especial a **[Lory-Stan TANASI](https://github.com/stantanasi)** por su trabajo original, que sentó las bases para ShadowHub.
+-   Este proyecto está fuertemente inspirado y basado en el código de **Streamflix**.
+-   Un agradecimiento especial a **[Lory-Stan TANASI](https://github.com/stantanasi)** por su increíble trabajo original, que sirvió como pilar fundamental para ShadowHub.
 
 ## Descargo de Responsabilidad
 
-> **ShadowHub** es una aplicación que funciona como un motor de búsqueda o navegador para el contenido proporcionado por extensiones de terceros. **No alojamos, controlamos ni proporcionamos ningún contenido multimedia.**
+> **ShadowHub es una herramienta de software neutra.** Su funcionalidad es análoga a la de un navegador web, permitiendo el acceso a datos y contenido a través de extensiones de terceros.
+> 
+> **No alojamos, controlamos, desarrollamos ni proporcionamos ninguna de las extensiones ni el contenido al que estas dan acceso.**
 >
-> **El usuario es el único responsable de las extensiones que instala y del uso que hace de ellas.** Cualquier problema legal o de derechos de autor relacionado con el contenido debe ser tratado directamente con los proveedores de dichas extensiones.
->
-> Es responsabilidad del usuario evitar cualquier acción que pueda violar las leyes de su localidad. La aplicación está destinada exclusivamente para uso personal y educativo.
+> **El usuario final es el único y total responsable de las extensiones que instala y del uso que hace de la aplicación.** Cualquier problema legal o de derechos de autor relacionado con el contenido es responsabilidad exclusiva del usuario y de los proveedores de las extensiones. Se recomienda a los usuarios cumplir con las leyes de derechos de autor de su localidad.
 
 ## Autor
 
