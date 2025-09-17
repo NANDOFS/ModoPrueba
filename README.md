@@ -142,7 +142,7 @@ ShadowHub es un proyecto personal desarrollado en mi tiempo libre. Si te gusta l
   <a href="https://www.buymeacoffee.com/nandofloreo">
     <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee">
   </a>
-  <a href="https://paypal.me/paypalme/NandoF">
+  <a href="https://paypal.me/NandoF">
     <img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="Donate with PayPal">
   </a>
 </p>
