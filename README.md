@@ -11,17 +11,17 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/[TU-USUARIO]/shadowhub/releases/latest"><img src="https://img.shields.io/github/v/release/[TU-USUARIO]/shadowhub?style=for-the-badge&logo=android&color=3DDC84" alt="Última Versión"></a>
+    <a href="https://github.com/NANDOFS/shadowhub/releases/latest"><img src="https://img.shields.io/github/v/release/NANDOFS/shadowhub?style=for-the-badge&logo=android&color=3DDC84" alt="Última Versión"></a>
     <img src="https://img.shields.io/badge/Licencia-Apache_2.0-blue.svg?style=for-the-badge" alt="Licencia">
-    <a href="https://github.com/[TU-USUARIO]/shadowhub/issues"><img src="https://img.shields.io/github/issues/[TU-USUARIO]/shadowhub?style=for-the-badge&logo=github" alt="Issues"></a>
+    <a href="https://github.com/NANDOFS/shadowhub/issues"><img src="https://img.shields.io/github/issues/NANDOFS/shadowhub?style=for-the-badge&logo=github" alt="Issues"></a>
 </p>
 
 <p align="center">
   <a href="#descargar"><strong>Descargar la App »</strong></a>
   ·
-  <a href="https://github.com/[TU-USUARIO]/shadowhub/issues">Reportar un Bug</a>
+  <a href="https://github.com/NANDOFS/shadowhub/issues">Reportar un Bug</a>
   ·
-  <a href="https://github.com/[TU-USUARIO]/shadowhub/issues">Solicitar una Característica</a>
+  <a href="https://github.com/NANDOFS/shadowhub/issues">Solicitar una Característica</a>
 </p>
 
 <details>
@@ -122,7 +122,7 @@ ShadowHub está en desarrollo activo. Aquí hay algunas de las características 
 -   [ ] Descarga de contenido para visualización sin conexión
 -   [ ] Búsqueda global mejorada a través de todas las extensiones
 
-¡Si tienes una idea, no dudes en [abrir un issue](https://github.com/[TU-USUARIO]/shadowhub/issues) para discutirla!
+¡Si tienes una idea, no dudes en [abrir un issue](https://github.com/NANDOFS/shadowhub/issues) para discutirla!
 
 ## Cómo Contribuir
 
@@ -139,10 +139,10 @@ ShadowHub está en desarrollo activo. Aquí hay algunas de las características 
 ShadowHub es un proyecto personal desarrollado en mi tiempo libre. Si te gusta la aplicación y quieres apoyar su continuo desarrollo, puedes invitarme un café o hacer una donación. ¡Cualquier ayuda es enormemente apreciada!
 
 <p align="center">
-  <a href="https://www.buymeacoffee.com/tu-usuario-coffee">
+  <a href="https://www.buymeacoffee.com/nandofloreo">
     <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee">
   </a>
-  <a href="https://paypal.me/tu-usuario-paypal">
+  <a href="https://paypal.me/paypalme/NandoF">
     <img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="Donate with PayPal">
   </a>
 </p>
@@ -164,7 +164,7 @@ ShadowHub es un proyecto personal desarrollado en mi tiempo libre. Si te gusta l
 
 ## Autor
 
--   **[Tu Nombre]** - *Desarrollador Principal* - [[Tu Perfil de GitHub](https://github.com/[TU-USUARIO])]
+-   **NandoFs** - *Desarrollador Principal* - [[Tu Perfil de GitHub](https://github.com/NANDOFS)]
 
 ## Licencia
 
