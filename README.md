@@ -164,7 +164,7 @@ ShadowHub es un proyecto personal desarrollado en mi tiempo libre. Si te gusta l
 
 ## Autor
 
--   **NandoFs** - *Desarrollador Principal* - [[Tu Perfil de GitHub](https://github.com/NANDOFS)]
+-   **NandoFs** - *Desarrollador Principal* - [NANDOFS(https://github.com/NANDOFS)]
 
 ## Licencia
 
